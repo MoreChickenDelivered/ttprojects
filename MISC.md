@@ -1,6 +1,7 @@
 # monitoring/management
 -  [pnl_alert](https://github.com/MoreChickenDelivered/data_checker/tree/docker-prom/pnl_alert) - slack drawdown alerts and prometheus data
     -  it's the data you see on TradeTerminal Grafana dashboards
+    -  USE THE docker-prom BRANCH
 -  [mgr](https://github.com/MoreChickenDelivered/remoteControl) - manage Binance strategies
     -  [mgr deploy](https://github.com/MoreChickenDelivered/remoteControlDeploy) - deploys updates to mgr
 -  [hft_orders/servers_alerts LINK NEEDED]() - alerts slack for one-sided hft positions and high resource usage in servers

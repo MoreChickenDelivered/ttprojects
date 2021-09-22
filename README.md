@@ -16,5 +16,6 @@ TODO: put where libttshared/libshared goes.
 
 Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython.
 
+USE THE `develop` BRANCH UNLESS OTHERWISE SPECIFIED OR IT DOESN'T EXIST
 
 
