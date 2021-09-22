@@ -9,12 +9,12 @@
 # Python mid-frequency
 -  [luigi live execution](https://github.com/MoreChickenDelivered/luigi) - live strategy deployment
 -  Backtesting
-    -  [cytester](https://github.com/MoreChickenDelivered/cytester)
+    -  [cytester](https://github.com/MoreChickenDelivered/cytester2)
 -  ???
 
-TODO: put where libttshared/libshared goes.
+[tthftshared](https://github.com/MoreChickenDelivered/tthftshared) - constants used by cytester and hftbackend
 
-Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython.
+Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython (technically, C++ doesn't "need" Python/Cython, but Python/Cython is used for optimization).
 
 USE THE `develop` BRANCH UNLESS OTHERWISE SPECIFIED OR IT DOESN'T EXIST
 
