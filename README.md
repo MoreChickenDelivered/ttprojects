@@ -13,10 +13,11 @@
 -  ???
 
 [tthftshared](https://github.com/MoreChickenDelivered/tthftshared) - constants used by cytester and hftbackend
+[walter protobuf](https://github.com/MoreChickenDelivered/walter_protobuf) - ???
 
 Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython (technically, C++ doesn't "need" Python/Cython, but Python/Cython is used for parameter optimization).
 
-USE THE `develop` BRANCH UNLESS OTHERWISE SPECIFIED OR IT DOESN'T EXIST
+USE THE BRANCH USED IN [cytester CMakeLists](https://github.com/MoreChickenDelivered/cytester2/blob/main/CMakeLists.txt)
 
 See [MISC](https://github.com/MoreChickenDelivered/ttprojects/blob/main/MISC.md) for other repos.
 
