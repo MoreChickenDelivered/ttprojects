@@ -18,4 +18,13 @@ Yes, there are 2 cytesters that aren't very similar, which can be confusing. And
 
 USE THE `develop` BRANCH UNLESS OTHERWISE SPECIFIED OR IT DOESN'T EXIST
 
+See [MISC](https://github.com/MoreChickenDelivered/ttprojects/blob/main/MISC.md) for other repos.
 
+## Making changes
+To make changes to a repository maintained by multiple people:
+1. create a branch called <firstname>-<bugfix | feature>. For example, if I wanted to create a new feature, I would create a branch called `shile-feature`
+2. go to Github and create a pull request between the develop (if it exists) or the main branch and your new branch
+3. send it to Shile for a review, then make changes based on feedback
+
+## New projects
+If you are working on a new project, please share the project with Shile so he can review the code once per day to check that good style/documentation is maintained
