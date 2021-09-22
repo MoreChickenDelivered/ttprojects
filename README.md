@@ -3,7 +3,7 @@
 -  Backtesting
     -  [backtest binary](https://github.com/MoreChickenDelivered/hfttester) - used to backtest a C++ strategy given a set of parameter configs
     -  [cytester library](https://github.com/ebenali/cytester-blankrepo) and [strcy](https://github.com/MoreChickenDelivered/strcycopy) - Python libraries used to optimize parameters
--  [Plugin](https://github.com/ebenali/hft-plugin-base) -  logic to generate orders. Run by live execution and backtest binaries
+-  [Plugin](https://github.com/ebenali/hft-plugin-base) - gets fed data and contains logic to generate orders. Run by live execution and backtest binaries
 -  [Docker containers](https://github.com/MoreChickenDelivered/tthft-docker-image) - contains containers for building and research
 
 # Python mid-frequency
@@ -14,7 +14,7 @@
 
 [tthftshared](https://github.com/MoreChickenDelivered/tthftshared) - constants used by cytester and hftbackend
 
-Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython (technically, C++ doesn't "need" Python/Cython, but Python/Cython is used for optimization).
+Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython (technically, C++ doesn't "need" Python/Cython, but Python/Cython is used for parameter optimization).
 
 USE THE `develop` BRANCH UNLESS OTHERWISE SPECIFIED OR IT DOESN'T EXIST
 
