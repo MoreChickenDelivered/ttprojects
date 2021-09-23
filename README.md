@@ -1,15 +1,17 @@
+# LINKS NEED REVIEW
+
 # C++ HFT Market Making
--  [live execution binary](https://github.com/MoreChickenDelivered/hftbackend) - live strategy deployment
+-  [live execution binary - cytester](https://github.com/MoreChickenDelivered/cytester2) - live strategy deployment
 -  Backtesting
-    -  [backtest binary](https://github.com/MoreChickenDelivered/hfttester) - used to backtest a C++ strategy given a set of parameter configs
-    -  [cytester library](https://github.com/ebenali/cytester-blankrepo) and [strcy](https://github.com/MoreChickenDelivered/strcycopy) - Python libraries used to optimize parameters
--  [Plugin](https://github.com/ebenali/hft-plugin-base) - gets fed data and contains logic to generate orders. Run by live execution and backtest binaries
+    -  [backtest binary - cytester](https://github.com/MoreChickenDelivered/cytester2) - used to backtest a C++ strategy given a set of parameter configs
+    -  ["other" cytester](https://github.com/ebenali/cytester-blankrepo) and [strcy](https://github.com/MoreChickenDelivered/strcycopy) - Python libraries used to optimize parameters
+-  [HFT Plugin](https://github.com/ebenali/hft-plugin-base) - gets fed data and contains logic to generate orders. Run by live execution and backtest binaries
 -  [Docker containers](https://github.com/MoreChickenDelivered/tthft-docker-image) - contains containers for building and research
 
 # Python mid-frequency
 -  [luigi live execution](https://github.com/MoreChickenDelivered/luigi) - live strategy deployment
 -  Backtesting
-    -  [cytester](https://github.com/MoreChickenDelivered/cytester2)
+    -  [???]()
 -  ???
 
 [tthftshared](https://github.com/MoreChickenDelivered/tthftshared) - constants used by cytester and hftbackend
