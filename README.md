@@ -4,11 +4,11 @@
 C++ already support protobuf, supports market making, target position, has some less used stuff like arbitrage and "LSD".u
 
 Vanilla BGMarketMaker figures out a "fair price" from the current BBO and spreads the allocation amount into 2 sides, one 'above' and one 'below' the fair price (with some 'distance' in terms of price). Each side is split into __levels__ which correspond to single limit orders sitting in the exchange. Each level/order is general of the same quantity because the allocation is split evenly across levels (except when reaping profit the most inner levels get extra amount).
-The levels are spaced apart by a even amount. Many of these quantities are determined by both the current market and certain coeffitients and/or ratios that were deemed the most profitable by the backtester optimization run.
+The levels are spaced apart by a even amount. Many of these quantities are determined by both the current market and certain coefficients and/or ratios that were deemed the most profitable by the backtester optimization run.
 
 -  [live execution binary - cytester](https://github.com/MoreChickenDelivered/cytester2) - live strategy deployment
 
-   The live component that, instead of replaying static historical data, gets the market data from a live exchange webosscket and sends actual orders. Otherwise comparable to a backtesting run.
+   The live component that, instead of replaying static historical data, gets the market data from a live exchange websocket and sends actual orders. Otherwise comparable to a backtesting run.
 -  Backtesting
     -  [backtest binary - cytester](https://github.com/MoreChickenDelivered/cytester2) - used to backtest a C++ strategy given a set of parameter configs.
      
@@ -31,15 +31,11 @@ The levels are spaced apart by a even amount. Many of these quantities are deter
 
    Unlike cytester which does it all including the strategy logic and network I/O with the exchange, luigi only worries about network IO (and in a later iteration, does a rahter simple target following control loop called mOMS). It communicates through MQ and uses mySQL for some storage. ---ebenali
 -  Backtesting
-    -  [???]()
-       
-       They have their own private backtesting procedures and data sets for this which aren't in any repository I see. 
--  ???
-  
+    -  Traders have their own private backtesting procedures and data sets. 
    - pysdk : the "strategy", current maintainer: yfan 
 
-[tthftshared](https://github.com/MoreChickenDelivered/tthftshared) - constants used by cytester and hftbackend
-[walter protobuf](https://github.com/MoreChickenDelivered/walter_protobuf) - ???
+[tthftshared](https://github.com/MoreChickenDelivered/tthftshared) - constants used by cytester and hftbackend  
+[walter protobuf](https://github.com/MoreChickenDelivered/walter_protobuf) - converts data from JSON -> protobuf -> BIN
 
 Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython (technically, C++ doesn't "need" Python/Cython, but python is currently used for parameter optimization and as driver code for concurrent multi-phase backtesting and generating PnL plots).
 
