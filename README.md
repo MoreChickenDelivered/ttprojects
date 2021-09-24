@@ -34,11 +34,11 @@ The levels are spaced apart by a even amount. Many of these quantities are deter
     -  Traders have their own private backtesting procedures and data sets. 
    - pysdk : the "strategy", current maintainer: yfan 
 
-Used by cytester
+Used by cytester  
 [tthftshared](https://github.com/MoreChickenDelivered/tthftshared) - constants used by cytester and hftbackend  
-[walter protobuf](https://github.com/MoreChickenDelivered/walter_protobuf) - converts data from JSON -> protobuf -> BIN
-[liblogger](https://github.com/MoreChickenDelivered/liblogger) - 
-[hftbackend](https://github.com/MoreChickenDelivered/hftbackend) - 
+[walter protobuf](https://github.com/MoreChickenDelivered/walter_protobuf) - converts data from JSON -> protobuf -> BIN  
+[liblogger](https://github.com/MoreChickenDelivered/liblogger) -  
+[hftbackend](https://github.com/MoreChickenDelivered/hftbackend) -  
 
 Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython (technically, C++ doesn't "need" Python/Cython, but python is currently used for parameter optimization and as driver code for concurrent multi-phase backtesting and generating PnL plots).
 
