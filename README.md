@@ -42,7 +42,7 @@ Used by cytester
 
 Yes, there are 2 cytesters that aren't very similar, which can be confusing. And yes, both C++ and Python backtesting involves both C++ and Python/Cython (technically, C++ doesn't "need" Python/Cython, but python is currently used for parameter optimization and as driver code for concurrent multi-phase backtesting and generating PnL plots).
 
-USE THE BRANCH USED IN [cytester CMakeLists](https://github.com/MoreChickenDelivered/cytester2/blob/main/CMakeLists.txt)
+USE THE BRANCH USED IN [cytester:dev CMakeLists](https://github.com/MoreChickenDelivered/cytester2/blob/dev/CMakeLists.txt)
 
 See [MISC](https://github.com/MoreChickenDelivered/ttprojects/blob/main/MISC.md) for other repos.
 
