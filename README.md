@@ -36,7 +36,7 @@ The levels are spaced apart by a even amount. Many of these quantities are deter
 
 Used by cytester  
 [tthftshared](https://github.com/MoreChickenDelivered/tthftshared) - constants used by cytester and hftbackend  
-[walter protobuf](https://github.com/MoreChickenDelivered/walter_protobuf) - converts data from JSON -> protobuf -> BIN  
+[walter protobuf](https://github.com/MoreChickenDelivered/walter_protobuf) - converts data from JSON -> protobuf  
 [liblogger](https://github.com/MoreChickenDelivered/liblogger) - logging and slack utilities 
 [hftbackend](https://github.com/MoreChickenDelivered/hftbackend) - clients for various exchanges to subscribe to market data and submit orders 
 
