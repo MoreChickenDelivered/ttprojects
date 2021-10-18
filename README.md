@@ -14,7 +14,7 @@ The levels are spaced apart by a even amount. Many of these quantities are deter
      
        Given a bunch of input data binaries, containing market data (trades and orderbooks). it replays those datas into a simulation of an exchange, making calculations of PnL as it goes and fees. The strategies is the same code used by the live component.
     -  ["other" cytester](https://github.com/ebenali/cytester-blankrepo) and [strcy](https://github.com/MoreChickenDelivered/strcycopy) - Python libraries used to optimize parameters
--  [HFT Plugin](https://github.com/ebenali/hft-plugin-base) - gets fed data and contains logic to generate orders. Run by live execution and backtest binaries
+-  [HFT Plugin](https://github.com/MoreChickenDelivered/hft-plugin-base) - gets fed data and contains logic to generate orders. Run by live execution and backtest binaries
    
    was split out from the main `cytester` repositories in order to allow for restricted-access to external teams without exposing the inner workings of the backtester/live and how it handles exchange/protobuf I/O and other details.
 
