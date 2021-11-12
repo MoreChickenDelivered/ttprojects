@@ -1,0 +1,12 @@
+- 3.113.14.80
+    - Uniswap data
+    - dydx data
+- 35.73.145.169 54.95.86.164 54.92.1.5 
+    - C++ strategies
+- 52.196.186.226
+    - Luigi
+- 54.168.9.112
+    - pysdk 
+- 52.192.66.77
+    - Romain dydx/ftx monitoring
+- 
